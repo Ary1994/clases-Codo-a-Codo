@@ -1,0 +1,26 @@
+#contenedor{
+    background-color: blue;
+    padding: 1rem;
+    border: 1px solid #fff;
+    display: grid;
+    grid-template-columns:  repeat(4,20%);
+    row-gap: 1rem;
+     /* gap tiene para dejar espacion entre los items row-gap: ; entre filas colo*/ 
+   padding: .5rem;
+  /* justify-content:center;justifica de distintas maneras
+   height:50rem;
+   align-content: center;*/
+}
+.grid-item{
+    border: 3px solid black ;
+    background-color: aquamarine;
+    text-align: center;
+    width: 20rem;
+    height: 7rem;
+    
+}/*
+#item1{
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row: 1/4;
+}*/

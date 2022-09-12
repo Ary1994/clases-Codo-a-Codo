@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name">
+            <label for="lastname">Apellido</label>
+            <input type="lastname"name="lastname" id ="lastname">
+            <label for="dni">D.N.I</label>
+            <input type="number" name="dni" id="dni">
+            <label for="age">Edad</label>
+            <input type="number" name="age" id="age"min="0" max="120">
+            <label for="birhtdate">Fecha de Nacimiento</label>
+            <input type="date" name="birhtdate" id="birhtdate">
+        </fieldset>
+        <fieldset>
+            <legend>Datos del Usuario</legend>
+            <label for="email">Email</label>
+            <input type="email"nama="email" id="email" placeholder="Escribi aca tu email">
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password">
+        </fieldset>
+        <fieldset>
+            <legend>Opcciones</legend>
+            <label for="genre">Genero</label>
+            <input type="radio" value="Famenino" name="genre">Femenino
+            <input type="radio" value="Masculino" name="genre">Masculino
+            <input type="radio" value="Otro" name="genre"><br>Otros
+            <label for="known">Conocimientos previos</label>
+            <input type="checkbox" value="javascrip" name="known">Javascrip
+            <input type="checkbox" value="java" name="known">Java
+            <input type="checkbox" value="c" name="known">C
+            <input type="checkbox" value="python" name="known">Python
+
+        </fieldset>
+        <fieldset>
+            <legend>Archivos</legend>
+            <label for="url">Url</label>
+            <input type="url" name="url" id="url">
+            <label for="file">Archivo</label>
+            <input type="file"name="file" id="file" accept=".pdf"  multiples>
+            <p>Solo archivos pdf</p>
+            <label for="comments">Comentarios</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </fieldset>
+        <button type="submit" >Enviar</button>
+        <button type="reset" >Borrar</button>
+    </form>
+</body>
+</html>
