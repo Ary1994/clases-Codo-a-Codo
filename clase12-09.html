@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 11</title>
+ 
+    <!--link a bootstrap CSS only -->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="bootstrap-5.2.1-dist/css/bootstrap.css">
+</head>
+<body>
+    <h1>Clase bootstrap</h1>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/tipos-de-paisaje-natural.jpg" class="d-block w-100" alt="..." style="height: 16rem;">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/tipos-de-paisaje-natural.jpg" class="d-block w-100" alt="..."style="height: 16rem;">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/tipos-de-paisaje-natural.jpg" class="d-block w-100" alt="..."style="height: 16rem;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+
+
+    <section class="container-fluid" style="background-color:aqua ;"><!--container no respeta los espacio de los costados-->
+       <section class="row">
+            <section class=" col-sm-6 col-md-5">
+                <h2>Seccion 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolore non, molestias accusamus minima veniam labore, cumque maxime aliquam vel eum at, explicabo ipsum aperiam mollitia alias sequi enim deserunt?</p>
+        </section>
+        <section class="col-sm-6 col -md-7">
+                <h2>Seccion </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolore non, molestias accusamus minima veniam labore, cumque maxime aliquam vel eum at, explicabo ipsum aperiam mollitia alias sequi enim deserunt?</p>
+                <section class="row">
+                    <article class="col -md-6">Numero 1</article>
+                    <article class="col -md-6">Numero 2</article>
+                </section>
+            </section>
+        </section>
+    </section>
+
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

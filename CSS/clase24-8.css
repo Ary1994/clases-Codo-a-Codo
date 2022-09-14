@@ -1,0 +1,32 @@
+*{
+    font-family: 'Roboto', sans-serif;
+   /* background-image: url(../imagenes/tipos-de-paisaje-natural.jpg);*/
+}
+
+h1{
+    background-color: aqua;
+    font-family: 'Combo', cursive;
+    
+}
+.p1{
+   /* background-color: #ff000f;/*color colocado con sexadecimal*/
+    color:rgb(66, 136, 136);
+    font-size: 2vw;/*medida relativa view whidth ancho de la pantalla*/
+}
+#p2{
+    /*background-color: rgb(118, 228, 62);/*color puesto con rgb*/
+    font-weight: 400;
+    font-size: 1em;/*medida relativa  que esta basada en el elemento padre*/
+}
+#p3{
+   font-size: 100%;/*medida relativa q se modifica al tamaño de la pantalla*/
+   /* background-color: rgba(118, 228, 62, 0.25);/*es igual q el rgb solo q agrega un 4to parametro(0-1) para definir la trasparencia*/
+}
+#p5{
+    font-size: 1rem;/*es una medida relativa  que se basa en lo que es estandar ej en p 16px*/
+}
+.fa-heart-pulse{
+    font-size: 50px;
+    color: palevioletred;
+    
+}
