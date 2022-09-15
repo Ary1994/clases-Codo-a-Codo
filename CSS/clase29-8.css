@@ -1,0 +1,33 @@
+*{
+   
+    box-sizing: border-box;/* este hace q los bordes se repeten osea q le reste el padin margin y borde a la caja */
+}
+#Header{
+   
+    text-align: center; 
+    background-color: aqua;
+    position: fixed; /*mantener  en la pocicion*/
+    width: 100%;
+}
+
+#seccion_principal{
+    border: 3px solid plum;
+}
+#seccion_principal article{
+    width: 25rem;
+    height: 25rem;
+    padding: 2rem;
+    margin: 1rem;
+    /*overflow es para cuando se pasa el contenido de la caja  scroll te agrega una barra y -x hotrizontal -y vertical*/
+}
+#articulo1{
+    border: 6px solid black;
+
+}
+#articulo2{
+    border: 6px solid #fff;
+
+}
+#articulo3{
+    border: 6px dotted blueviolet;
+}
